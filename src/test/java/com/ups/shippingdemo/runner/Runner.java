@@ -16,10 +16,5 @@ import org.junit.runner.RunWith;
 )
 
 public class Runner {
-    @BeforeAll
-    public static void setUpAll() {
-        Configuration.browserSize = "1280x800";
-    }
-
 
 }
